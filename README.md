@@ -50,16 +50,6 @@ This web-based solution facilitates the creation, update, and tracking of consul
 - Log in using your Firebase credentials.
 - Navigate through the dashboard to manage consultant files.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE file for details.
-
-## Acknowledgements
-Special thanks to all contributors and stakeholders involved in this project.
-
----
-
-For more information or queries, please contact the project maintainers.
 
 ---
 
