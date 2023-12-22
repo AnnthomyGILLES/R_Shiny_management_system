@@ -5,6 +5,12 @@
 ### Context
 Traditionally, the process of managing consultant files involved recurring physical meetings among three key parties: the client, the consultant, and the manager. This approach required an extensive exchange of emails for updates, making the process cumbersome and time-consuming. To streamline and secure this process, especially concerning the exchange of confidential information, I have developed a fully digitalized consultant file management system.
 
+![App Screenshot 1](images/1596584281201.jpg)
+![App Screenshot 2](images/1596824501152.jpg)
+![App Screenshot 3](images/1597139281959.jpg)
+![App Screenshot 4](images/1597175575453.jpg)
+
+
 ### Solution
 This web-based solution facilitates the creation, update, and tracking of consultant files in a secure, digital environment. The system simplifies the collaboration process among clients, consultants, and managers, ensuring efficient and secure information exchange.
 
