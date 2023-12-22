@@ -5,10 +5,14 @@
 ### Context
 Traditionally, the process of managing consultant files involved recurring physical meetings among three key parties: the client, the consultant, and the manager. This approach required an extensive exchange of emails for updates, making the process cumbersome and time-consuming. To streamline and secure this process, especially concerning the exchange of confidential information, I have developed a fully digitalized consultant file management system.
 
-![App Screenshot 1](images/1596584281201.jpg)
-![App Screenshot 2](images/1596824501152.jpg)
-![App Screenshot 3](images/1597139281959.jpg)
-![App Screenshot 4](images/1597175575453.jpg)
+<p float="left">
+  <img src="images/1596584281201.jpg" width="400" />
+  <img src="images/1596824501152.jpg" width="400" /> 
+</p>
+<p float="left">
+  <img src="images/1597139281959.jpg" width="400" />
+  <img src="images/1597175575453.jpg" width="400" />
+</p>
 
 
 ### Solution
