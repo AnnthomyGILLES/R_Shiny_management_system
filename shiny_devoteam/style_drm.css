@@ -1,0 +1,105 @@
+header {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	background: #F94E5E url(../logo_devoteam.png);
+	background-repeat: no-repeat;
+  background-size: contain;
+	border-bottom: solid 1px #f7485e;
+	text-align: center
+}
+
+header h3 {
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #fff;
+    letter-spacing: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+
+#main-content h1:before {
+  padding-right: 0.3em;
+  margin-left: -0.8em;
+  color: #0090ff;
+  content: "/";
+}
+
+#main-content h2 {
+  margin-bottom: 8px;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #474747;
+  border:2px solid black;
+  text-align: center;
+}
+#main-content h2:before {
+  padding-right: 0.3em;
+  margin-left: -1.2em;
+  content: "";
+  color: #0090ff;
+}
+
+#main-content h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #474747;
+}
+
+#main-content h3:before {
+  padding-right: 0.3em;
+  margin-left: -1.7em;
+  content: "/";
+  color: #0090ff;
+}
+
+#main-content h4 {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #474747;
+}
+
+h4:before {
+  padding-right: 0.3em;
+  margin-left: 1em;
+  content: "//";
+  color: #0090ff;
+}
+
+#main-content h5 {
+  margin-bottom: 8px;
+  font-size: 1em;
+  color: #474747;
+}
+h5:before {
+  padding-right: 0.3em;
+  margin-left: -2.4em;
+  content: "///";
+  color: #0090ff;
+}
+
+#main-content h6 {
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  color: #474747;
+}
+h6:before {
+  padding-right: 0.3em;
+  margin-left: -3em;
+  content: "////";
+  color: #0090ff;
+}
+
+#main-content table {
+  width: auto;
+}

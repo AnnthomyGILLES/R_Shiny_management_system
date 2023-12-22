@@ -1,0 +1,6 @@
+.git
+packrat/
+rsconnect/
+packrat/lib*/
+.Rbuildignore
+.Rprofile

@@ -1,0 +1,120 @@
+---
+title: "Fiche de suivi de prestation"
+params:
+  nom_du_client: NA
+  nom_du_projet: NA
+  intitule_du_poste: NA
+  duree_mission: NA
+  dernier_point_de_suivi: NA
+  date_prochain_suivi: NA
+  transmisson_client: NA
+  charte_sii_client: NA
+  nom_chef_projet: NA
+  nom_coordinateur_projet: NA
+  complexite_du_projet: NA
+  decouverte_env_travail: NA
+  env_contexte_client: NA
+  realisations_techniques: NA
+  difficultes_rencontrees: NA
+  appreciation_globale: NA
+  axes_amelioration: NA
+  conges: NA
+  formation: NA
+  synthese_du_suivi: NA
+  appreciation_globale_client: NA
+  email_sales: NA
+  email_manager: NA
+  nom_manager: NA
+  nom_sales: NA
+  email: NA
+  nom_consultant: NA
+  
+  tm_validation_manager: NA
+  tm_validation_sales: NA
+  tm_validation_consultant: NA
+author: "`r params[['nom_consultant']]`"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  prettydoc::html_pretty:
+    theme: architect
+    highlight: github
+    css: style_drm.css
+---
+
+## Contacts
+- Consultant - `r params[['nom_consultant']]` : `r params[['email']]`
+- Manager - `r params[['nom_manager']]`: `r params[['email_manager']]`
+- Sales - `r params[['nom_sales']]`: `r params[['email_sales']]`
+
+## Le Projet
+### Récapitulatif
+
+|   Le projet   |
+|---------------|--------------------|
+| Nom du client 	|`r params[['nom_du_client']]`	|
+| Nom du projet 	|`r params[['nom_du_projet']]` 	|
+| Intitulé du poste 	|`r params[['intitule_du_poste']]`	|
+| Durée de la mission (en semaine) 	|`r params[['duree_mission']]`	|
+| Dernier point de suivi s'il existe 	| `r params[['dernier_point_de_suivi']]`	|
+| Transmission du plan de prévention Client s'il existe 	| `r params[['transmisson_client']]`	|
+| Présentation de la charte SSI Client * 	| `r params[['charte_sii_client']]`|
+| Chef de projet	|`r params[['nom_chef_projet']]`	|
+| Coordinateur 	| `r params[['nom_coordinateur_projet']]`	|
+
+*Si non transmission à remettre dans les 15 jours suivant le point de suivi
+
+### Complexité du projet
+`r params[['complexite_du_projet']]`
+
+## La mission
+### Description de la mission
+#### Découverte de l’environnement de travail et du contexte mission
+`r params[['decouverte_env_travail']]`
+
+#### Environnement et contexte client
+`r params[['env_contexte_client']]`
+
+### Réalisations clés techniques et/ou fonctionnelles
+`r params[['realisations_techniques']]` 
+
+### Difficultés rencontrées et actions menées pour y remédier
+`r params[['difficultes_rencontrees']]`
+
+### Appréciation globale de la mission
+#### Consultant
+`r params[['appreciation_globale']]`
+
+#### Client
+`r params[['appreciation_globale_client']]`
+
+### Axes d’amélioration et préconisations
+`r params[['axes_amelioration']]`
+
+## Synthèse du suivi
+`r params[['synthese_du_suivi']]`
+
+## Prévision de Congés
+`r params[['conges']]`
+
+## Formation demandée pour le déroulement de la mission
+`r params[['formation']]`
+
+## Signatures
+
+| Collaborateur | Date de validation |
+|---------------|--------------------|
+|`r params[['nom_consultant']]`|`r params[['tm_validation_consultant']]`|
+|`r params[['nom_sales']]`|`r params[['tm_validation_sales']]`|
+|`r params[['nom_manager']]`|`r params[['tm_validation_manager']]`|
+
+### Date du prochain suivi
+`r params[['date_prochain_suivi']]`
+
+## Politique de confidentialité
+Dans le cadre de votre prestation, nous vous rappelons que vous devez tenir strictement confidentiels tous documents, données et informations de toute nature qui vous ont été communiqués ou auxquels vous avez eu accès dans le cadre de l’exécution de votre prestation.
+
+Cela signifie que vous ne devez en aucun cas transférer, stocker ou traiter ces données sur un matériel, support ou espace personnel ni sur aucun réseau ou appareil informatique autres que ceux mis à votre disposition par le client ou autorisé par celui-ci pour l’exécution de votre prestation.
+
+Nous vous informons que les clients sont désormais équipés informatiquement pour détecter toute fuite de données.
+
+Enfin, nous tenons à vous préciser qu’un agissement contraire à ces règles serait susceptible d’entraîner des sanctions disciplinaires mais également d’engager votre responsabilité financière et pénale selon le niveau de gravité des manquements.
